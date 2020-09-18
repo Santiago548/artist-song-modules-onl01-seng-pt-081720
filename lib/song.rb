@@ -8,7 +8,7 @@ class Song
   include Memorable::InstanceMethods
   include Paramble
   extend Findable 
-  
+
   @@songs = []
 
   def initialize
